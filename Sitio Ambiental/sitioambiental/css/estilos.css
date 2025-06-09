@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+div#container{width: 1770px; margin: 0 auto;}
+.hero {
+  background-image: url("../img/portada1pumm.png");/* Reemplaza con tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	scale: 100%;
+}
+
+/* Contenedor de botones */
+.button-container {
+  display: flex;
+  gap: 40px;
+}
+
+/* Botones */
+.btn {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+  padding: 15px 30px;
+  background-color: cornflowerblue;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: green;
+  transform: scale(1.05);
+}
+
+/* Otras secciones */
+.section {
+  padding: 100px 20px;
+  background-color: black;
+  text-align: center;}
+ 
+header h1{font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-weight: 400;}
+body{background-color: white;
+	color: black;
+font-size: 1.8em;
+text-align: justify;}
+
+img.portadaizq{float: left; margin-right: -100px; margin-left: -80px; margin-bottom: 50px; margin-top: -170px; scale: 70%;}
+img.portadader{float: right; margin-right: 100px; margin-left: 80px; margin-bottom: -50px; margin-top: 170px; scale: 70%;}
+h2{ font-family: "Caudex", serif; font-size: 1.4em; margin-top: 150px;}
+
+#first{margin-right: 80px;}
+#second{clear:both; margin-bottom: 50px; margin-right: 80px }
+#tercero{clear:both;}
+
+troya{float: left; margin-right: 0px; margin-left: 0px; margin-bottom: 150px; margin-top: 100px;}
+
+  footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+	margin: 700px 0px 0px 0px;
+    font-family: Arial, sans-serif;
+  }
+
+.cajatroya {
+  display: none;  /* Inicia oculto */
+}
+
+
+
+/* CSS Document */
